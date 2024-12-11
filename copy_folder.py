@@ -11,5 +11,5 @@ def copy_files_rec(src,dest):
 
 # copy_files('cityscapes/gtFine/cityscapes_panoptic_train','CityscapesWithCocoPanopticLabels/panoptic_train')
 # copy_files('cityscapes/gtFine/cityscapes_panoptic_val','CityscapesWithCocoPanopticLabels/panoptic_val')
-# copy_files_rec('cityscapes/leftImg8bit/train','CityscapesWithCocoPanopticLabels/train')
-# copy_files_rec('cityscapes/leftImg8bit/val','CityscapesWithCocoPanopticLabels/val')
+copy_files_rec('cityscapes/leftImg8bit/train','CityscapesWithCocoPanopticLabels/train')
+copy_files_rec('cityscapes/leftImg8bit/val','CityscapesWithCocoPanopticLabels/val')
